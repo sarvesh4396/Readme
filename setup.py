@@ -2,8 +2,20 @@
 # -*- coding: utf-8 -*-
 
 from setuptools import setup
-from Readme.config import (AUTHOR, DESCRIPTION, INSTALL_REQUIRES, NAME,
-                                 REQUIRES_PYTHON, VERSION)
+from Readme.config import (
+    AUTHOR,
+    DESCRIPTION,
+    GIT_URL,
+    INSTALL_REQUIRES,
+    KEYWORDS,
+    NAME,
+    REQUIRES_PYTHON,
+    VERSION,
+    get_long_description,
+    CLASSIFIERS,
+    DOWNLOAD_URL,
+)
+
 
 setup(
     name=NAME,
@@ -11,7 +23,14 @@ setup(
     version=VERSION,
     description=DESCRIPTION,
     author=AUTHOR,
+    long_description=get_long_description(),
+    long_description_content_type="text/markdown",
+    url=GIT_URL,
     python_requires=REQUIRES_PYTHON,
     install_requires=INSTALL_REQUIRES,
+    include_package_data=True,
+    keywords=KEYWORDS,
+    download_url=DOWNLOAD_URL,
     entry_points={"console_scripts": [f"{NAME} = {NAME}.{NAME.lower()}:main"]},
+    classifiers=CLASSIFIERS,
 )
