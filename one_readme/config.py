@@ -13,17 +13,16 @@ REPOCARD_URL = "[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?
 INSTALL_REQUIRES = ["PyGithub", "tqdm"]
 
 # Package meta-data.
-username = "sarvesh4396"
-NAME = "Readme"
+NAME = "one_readme"
 AUTHOR = "Sarvesh Kumar Dwivedi"
-DESCRIPTION = "Only CLI Package you need to your all Readme."
-GIT_URL = f"https://github.com/{username}/{NAME}"
+DESCRIPTION = "Only CLI Package you need to manage all your Readme."
+GIT_URL = "https://github.com/sarvesh4396/Readme"
 KEYWORDS = [NAME, NAME.lower(), "Github"]
 REQUIRES_PYTHON = ">=3.7.0"
 VERSION = "0.2"
 # TODO: CHANGE
 DOWNLOAD_URL = (
-    f"https://github.com/{username}/{NAME}/archive/refs/tags/v{VERSION}.tar.gz"
+    f"https://github.com/sarvesh4396/Readme/archive/refs/tags/v{VERSION}.tar.gz"
 )
 CLASSIFIERS = [
     "Development Status :: 3 - Alpha",
