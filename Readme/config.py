@@ -20,9 +20,11 @@ DESCRIPTION = "Only CLI Package you need to your all Readme."
 GIT_URL = f"https://github.com/{username}/{NAME}"
 KEYWORDS = [NAME, NAME.lower(), "Github"]
 REQUIRES_PYTHON = ">=3.7.0"
-VERSION = "0.1"
+VERSION = "0.2"
 # TODO: CHANGE
-DOWNLOAD_URL = f"https://github.com/{username}/{NAME}/archive/refs/tags/v0.1.tar.gz"
+DOWNLOAD_URL = (
+    f"https://github.com/{username}/{NAME}/archive/refs/tags/v{VERSION}.tar.gz"
+)
 CLASSIFIERS = [
     "Development Status :: 3 - Alpha",
     "Topic :: Internet",
