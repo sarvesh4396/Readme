@@ -57,6 +57,8 @@ optional arguments:
 
 ## Example
 
-`sh
+```sh
+
 readme -u sarvesh4396 --secret ************
-`
+
+```
