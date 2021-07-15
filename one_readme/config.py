@@ -19,7 +19,7 @@ DESCRIPTION = "Only CLI Package you need to manage all your Readme."
 GIT_URL = "https://github.com/sarvesh4396/Readme"
 KEYWORDS = [NAME, NAME.lower(), "Github"]
 REQUIRES_PYTHON = ">=3.7.0"
-VERSION = "0.2"
+VERSION = "0.3"
 # TODO: CHANGE
 DOWNLOAD_URL = (
     f"https://github.com/sarvesh4396/Readme/archive/refs/tags/v{VERSION}.tar.gz"
