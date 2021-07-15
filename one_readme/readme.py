@@ -7,7 +7,7 @@ from os.path import join
 from genericpath import exists
 from github import Github
 from tqdm import trange
-from Readme.config import DESCRIPTION, HOMEDIR, README, REPO_STRING, REPOCARD_URL
+from one_readme.config import DESCRIPTION, HOMEDIR, README, REPO_STRING, REPOCARD_URL
 
 
 class Repo:

@@ -1,6 +1,6 @@
 # Readme
 
-Only CLI Package you need to your all Readme.
+Only CLI Package you need to manage all your Readme.
 
 ![PyPI version](https://img.shields.io/pypi/v/Readme?color=orange&logo=pypi&logoColor=orange&style=flat-square)
 ![Language](https://img.shields.io/badge/python-3.7%2B-blue?logo=python&style=flat-square)
@@ -27,23 +27,23 @@ Readme requires [python3.7+](https://www.python.org/downloads/) to run.
 ### Windows
 
 ```sh
-pip install readme
+pip install one-readme
 or
-pip install --upgrade readme
+pip install --upgrade one-readme
 ```
 
 ### Linux
 
 ```sh
-pip3 install readme
+pip3 install one-readme
 or 
-pip3 install --upgrade readme
+pip3 install --upgrade one-readme
 ```
 
 ## CLI Usage
 
 ```sh
-usage: Readme [-h] -u U --secret SECRET [--forked] [-p P]
+usage: readme [-h] -u U --secret SECRET [--forked] [-p P]
 
 Only CLI Package you need to your all Readme.
 
