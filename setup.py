@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from setuptools import setup
-from Readme.config import (
+from one_readme.config import (
     AUTHOR,
     DESCRIPTION,
     GIT_URL,
@@ -31,6 +31,6 @@ setup(
     include_package_data=True,
     keywords=KEYWORDS,
     download_url=DOWNLOAD_URL,
-    entry_points={"console_scripts": [f"{NAME} = {NAME}.{NAME.lower()}:main"]},
+    entry_points={"console_scripts": [f"readme = {NAME}.readme:main"]},
     classifiers=CLASSIFIERS,
 )
